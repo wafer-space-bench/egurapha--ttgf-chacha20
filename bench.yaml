@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/egurapha/ttgf-chacha20
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_egurapha_chacha20
+  project: ChaCha20
+  size: 3x4
+  kind: digital (SystemVerilog)
+  commit: 5957a14eac8224a2d974ba75eebc9d7b517a6128
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_egurapha_chacha20
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_egurapha_chacha20
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:31:49Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_egurapha_chacha20
+- upstream/main
